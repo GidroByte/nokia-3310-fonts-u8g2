@@ -5,7 +5,7 @@ Inspired by Nokia 3310: regular, bold, large bitmap fonts. Full UTF-8 support, E
 #include <Arduino.h>
 #include <U8g2lib.h>
 
-// Подключаем шрифт (файл n3310_big.c должен быть в проекте)
+// Подключаем шрифт (файл n3310_big.c должен быть в проекте) Добавляем через меню: Скетч → Добавить файл… и выберите нужный файл (например, n3310_big.c). Он появится отдельной вкладкой в IDE.
 extern const uint8_t u8g2_font_n3310_big[] U8G2_FONT_SECTION("u8g2_font_n3310_big");
 
 // Замените конструктор на соответствующий вашему дисплею
