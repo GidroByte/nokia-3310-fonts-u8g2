@@ -3,15 +3,16 @@ Inspired by Nokia 3310: regular, bold, large bitmap fonts. Full UTF-8 support, E
 
 ![Демонстрация шрифта](screenshot.png)
 
-Поддерживаемые символы:
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
-abcdefghijklmnopqrstuvwxyz
-АБВГДЕЁЖЗИЙКЛМНHОOПРСТУФХЦЧШЩЪЫЬЭЮЯ
-абвгдеёжзийклмнопрстуфхцчшщъыьэюя
-0123456789
-!#$ % &'()*+,-./:;<=>?@[\]^_{|}~`" во всех
+### Поддерживаемые символы
+ABCDEFGHIJKLMNOPQRSTUVWXYZ  
+abcdefghijklmnopqrstuvwxyz  
+АБВГДЕЁЖЗИЙКЛМНHОOПРСТУФХЦЧШЩЪЫЬЭЮЯ  
+абвгдеёжзийклмнопрстуфхцчшщъыьэюя  
+0123456789  
+!#$ % &'()*+,-./:;<=>?@[\]^_{|}~`" во всех  
 °(00B0) знак градусов, в small версиях
 
+### Быстрый старт
 ```cpp
 #include <Arduino.h>
 #include <U8g2lib.h>
