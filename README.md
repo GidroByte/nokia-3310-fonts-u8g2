@@ -39,5 +39,7 @@ void loop() {
       u8g2.setCursor(0, 20);
       u8g2.print("Привет, мир!");
   } while (u8g2.nextPage());
-}
+}  
+
+// Код протестирован с ESP32 S2
 ```
