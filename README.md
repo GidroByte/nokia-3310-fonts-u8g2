@@ -10,7 +10,7 @@ abcdefghijklmnopqrstuvwxyz
 абвгдеёжзийклмнопрстуфхцчшщъыьэюя  
 0123456789  
 !#$%&'()*+,-./:;<=>?@[\]^_{|}~`" во всех  
-euro (€ 0x20AC), pound (£ 0x00A3), yen (¥ 0x00A5), currency (¤ 0x00A4), inverted question mark (¿ 0x00BF), inverted exclamation (¡ 0x00A1), section (§ 0x00A7)
+euro (€ 0x20AC), pound (£ 0x00A3), yen (¥ 0x00A5), currency (¤ 0x00A4), inverted question mark (¿ 0x00BF), inverted exclamation (¡ 0x00A1), section (§ 0x00A7) во всех  
 °(00B0) знак градусов, в small версиях
 
 ### Быстрый старт
@@ -35,9 +35,9 @@ void setup() {
 void loop() {
   u8g2.firstPage();
   do {
-    u8g2.setFont(u8g2_font_n3310_big); // название шрифта из файла
-    u8g2.setCursor(0, 20);
-    u8g2.print("Привет, мир!");
+      u8g2.setFont(u8g2_font_n3310_big); // название шрифта из файла
+      u8g2.setCursor(0, 20);
+      u8g2.print("Привет, мир!");
   } while (u8g2.nextPage());
 }
 ```
