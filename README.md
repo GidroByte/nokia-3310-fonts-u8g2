@@ -10,8 +10,8 @@ abcdefghijklmnopqrstuvwxyz
 абвгдеёжзийклмнопрстуфхцчшщъыьэюя  
 0123456789  
 !#$%&'()*+,-./:;<=>?@[\]^_{|}~`" во всех  
-euro (€ 0x20AC), pound (£ 0x00A3), yen (¥ 0x00A5), currency (¤ 0x00A4), inverted question mark (¿ 0x00BF), inverted exclamation (¡ 0x00A1), section (§ 0x00A7) во всех  
-°(00B0) знак градусов, в small версиях
+€ 0x20AC, £ 0x00A3, ¥ 0x00A5, ¤ 0x00A4, ¿ 0x00BF, ¡ 0x00A1, § 0x00A7 во всех  
+° 00B0 знак градусов, в small версиях
 
 ### Быстрый старт
 ```cpp
