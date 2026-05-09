@@ -24,7 +24,7 @@ euro (€ 0x20AC), pound (£ 0x00A3), yen (¥ 0x00A5), currency (¤ 0x00A4), inv
 extern const uint8_t u8g2_font_n3310_big[] U8G2_FONT_SECTION("u8g2_font_n3310_big");
 
 // Замените конструктор на соответствующий вашему дисплею
-U8G2_ST75256_JLX256160_F_4W_HW_SPI u8g2(U8G2_R0, /* CS */ 10, /* DC */ 11, /* RST */ 12);
+U8G2_ST75256_JLX256160_F_4W_HW_SPI u8g2(U8G2_R0, /* CS */ 10, /* DC */ 11, /* RST */ 12);  
 
 void setup() {
   u8g2.begin();
